@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en:US">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Chris Cloud</title>
+  <style>
+    .menu{
+      border: solid;
+      margin-top: -6em;
+      margin-left: 13em;
+      padding-bottom: 5em;
+      border-radius: 20% 80% 80% 20%;
+    }
+    .menu1{
+
+    }
+    .menu2{
+      margin-left: 10em;
+      margin-top: -5.5em;
+    }
+    .menu3{
+      margin-left: 20em;
+      margin-top: -5.5em;
+    }
+  </style>
+</head>
+
+<body>
+  <div>
+    <h1 class="web-title" title="The Man, The Myth, The Melodramatic Mess">Chris
+    Cloud</h1>
+    <p>F L O A T</p>
+  </div>
+  <div class="menu">
+    <ul>
+      <div class="menu1">
+        <li>About Me</li>
+          <ul class="sub-menu">
+            <li>WHY</li>
+            <li>Interest</li>
+            <li>Fears</li>
+            <li>Goals</li>
+        </ul>
+      </div>
+      <div class="menu2">
+        <li>Distractions</li>
+          <ul class="sub-menu">
+            <li>Music</li>
+            <li>Gym</li>
+            <li>Drugs</li>
+            <li>Miscellaneous</li>
+          </ul>
+      </div>
+      <div class="menu3">
+        <li>Contact</li>
+      </div>
+    </ul>
+  </div>
+
+</body>
+
+</html>
