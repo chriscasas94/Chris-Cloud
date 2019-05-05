@@ -9,8 +9,15 @@
       display: inline-block;
     }
     .topMenu{
-      background-color: rgba(0, 0, 0, 0.09);
+      background: linear-gradient(
+          35deg,
+          #ddffff,
+          hsl(230,100%,90%),
+          #ddffff,
+          hsl(230,100%,90%)
+          );
       padding: 0 0 20 0;
+      border-radius: 20% 20% 20% 20%;
     }
     .title{
       position: relative;
@@ -38,7 +45,7 @@
     <p class="float">F L O A T</p>
   </div>
 
-  <div class="menu inline">
+  <nav class="menu inline">
     <ul>
       <div class="menu1 inline between">
         <li><a href="">About Me</a></li>
@@ -64,7 +71,7 @@
         <li>Contact</li>
       </div>
     </ul>
-  </div>
+  </nav>
   </div>
 
   <div>
