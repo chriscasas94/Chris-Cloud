@@ -5,37 +5,43 @@
   <meta charset="UTF-8">
   <title>Chris Cloud</title>
   <style>
+    .inline{
+      display: inline-block;
+    }
+    .topMenu{
+      background-color: rgba(0, 0, 0, 0.09);
+      padding: 0 0 20 0;
+    }
+    .title{
+      position: relative;
+      left: 0px;
+      top: 0px:
+    }
     .menu{
-      border: solid;
-      margin-top: -6em;
-      margin-left: 13em;
-      padding-bottom: 5em;
-      border-radius: 20% 80% 80% 20%;
+      position: relative;
+      float: right;
+      top: 5px;
+      right: 10em;
     }
-    .menu1{
-
-    }
-    .menu2{
-      margin-left: 10em;
-      margin-top: -5.5em;
-    }
-    .menu3{
-      margin-left: 20em;
-      margin-top: -5.5em;
+    .between{
+      margin: 15px;
     }
   </style>
 </head>
 
 <body>
-  <div>
+
+  <div class="topMenu">
+  <div class="title inline">
     <h1 class="web-title" title="The Man, The Myth, The Melodramatic Mess">Chris
     Cloud</h1>
-    <p>F L O A T</p>
+    <p class="float">F L O A T</p>
   </div>
-  <div class="menu">
+
+  <div class="menu inline">
     <ul>
-      <div class="menu1">
-        <li>About Me</li>
+      <div class="menu1 inline between">
+        <li><a href="">About Me</a></li>
           <ul class="sub-menu">
             <li>WHY</li>
             <li>Interest</li>
@@ -43,7 +49,8 @@
             <li>Goals</li>
         </ul>
       </div>
-      <div class="menu2">
+
+      <div class="menu2 inline between">
         <li>Distractions</li>
           <ul class="sub-menu">
             <li>Music</li>
@@ -52,12 +59,36 @@
             <li>Miscellaneous</li>
           </ul>
       </div>
-      <div class="menu3">
+
+      <div class="menu3 inline between">
         <li>Contact</li>
       </div>
     </ul>
   </div>
+  </div>
 
+  <div>
+    <h2>About Me</h2>
+      <p>*content*</p>
+      <h3>WHY?</h3>
+        <p>*content*</p>
+      <h3>Interest</h3>
+        <p>*content*</p>
+      <h3>Fears</h3>
+        <p>*content*</p>
+      <h3>Goals</h3>
+        <p>*content*</p>
+    <h2>Distractons</h2>
+      <p>*content*</p>
+      <h3>Music</h3>
+        <p>*content*</p>
+      <h3>Gym</h3>
+        <p>*content*</p>
+      <h3>Drugs</h3>
+        <p>*content*</p>
+      <h3>Miscellaneous</h3>
+        <p>*content*</p>
+  </div>
 </body>
 
 </html>
