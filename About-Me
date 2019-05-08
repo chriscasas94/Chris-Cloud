@@ -33,6 +33,19 @@
     .between{
       margin: 15px;
     }
+    #useless:hover {
+        animation-name: useless-button;
+        animation-duration: 10s;
+    }
+    @keyframes useless-button {
+        15% {
+            transform: rotate(180deg);
+        }
+        100% {
+            opacity: 0;
+            transform: rotate(180deg);
+        }
+    }
   </style>
 </head>
 
@@ -96,6 +109,10 @@
       <h3>Miscellaneous</h3>
         <p>*content*</p>
   </div>
+  <footer>
+      <p> &copy; 2019 WarFare, ind.</p>
+      <button id="useless">59009</button>
+  </footer>
 </body>
 
 </html>
